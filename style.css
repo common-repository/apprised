@@ -1,0 +1,103 @@
+.ps-settings-container {
+	margin-top: 10px;
+}
+
+.ps-settings-container .label {
+	font-size: 16px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	padding-left: 2px;
+}
+
+.m-t{
+	margin-top: 10px;
+}
+
+.ps-settings-container input:focus {
+	border-color: #7725f3;
+    box-shadow: 0 0 2px rgb(119, 37, 243);
+}
+
+.ps-settings-container input {
+	width: 50%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#ps-settings form #submit:hover{
+	background: #4d5cf2;
+    border-color: #4d5cf2;
+    color: #fff;
+}
+
+#ps-settings form #submit{
+	background: #4d5cf2;
+    border-color: #4d5cf2 #4d5cf2 #4d5cf2;
+    box-shadow: 0 1px 0 #4d5cf2;
+    color: #fff;
+    text-decoration: none !important;
+    text-shadow: none !important;
+    width: 90px;
+    height: 33px;
+    font-weight: bold;
+}
+
+.ps-settings-container a{
+	text-decoration: none;
+	color: #4d5cf2;
+}
+
+.ps-settings-container a:hover{
+	color: #4d5cf2;
+	text-decoration: underline !important;
+}
+
+.ps-settings-container div.account-link > a:hover{
+	text-decoration: underline !important;
+}
+
+.ps-settings-container div.account-link > a{
+	color: #4d5cf2;
+	font-weight: bolder;
+}
+
+.ps-settings-container div.account-link{
+	margin-bottom: 15px;
+    background-color: #f9f5ff;
+    padding: 10px;
+    border-left: 5px solid #4d5cf2;
+}
+
+.ps-settings-container div.ps-success {
+	margin-bottom: 15px;
+    background-color: #eafdea;
+    padding: 10px;
+    border-left: 5px solid rgb(123, 212, 101);
+}
+
+.ps-settings-container div.ps-warning {
+	margin-bottom: 15px;
+    background-color: rgb(222, 230, 255);
+    padding: 10px;
+    border-left: 5px solid rgb(45, 129, 255);
+}
+
+#ps-settings > a > img.top-logo{
+	width: 215px;
+    margin-left: -7px;
+}
+
+#ps-settings {
+	background-color: white;
+    margin-right: 0px;
+    padding-left: 20px;
+    margin-left: -20px;
+    margin-top: 0px;
+    padding-top: 10px;
+    border-bottom: 1px dashed #4d5cf2;
+    padding-right: 20px;
+}
+
+.ps-error {
+	color: red;
+}
